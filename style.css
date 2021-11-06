@@ -18,6 +18,34 @@ align-items: center;
 flex-direction: column;
 }
 
+.socialbox{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.social img{
+	width: 20px;
+	height: auto;
+}
+.social p{
+	color :#fff;
+}
+.social{
+	background-color: #3865f3;
+	height: 20px;
+	margin: 5px;
+	padding: 5px;
+	border-radius:100px ;
+	transition: .3s;
+}
+.social:hover{
+	background-color: #000;
+	
+}
+
+
+
 .item{
 text-align: center;
 margin: 10%;
@@ -44,7 +72,7 @@ margin: 10%;
  }
 .main p{
 	font-size: 22px;
-	font-weight: 200;
+	font-weight: 300;
 }
 a{
 	color: #3865f3;
@@ -58,15 +86,12 @@ a:hover{
 @media only screen and (max-width: 768px) {
 	.logo{
 		width: 60%;
-		margin-bottom: 40px;
 	}
 	.main h1{
 		font-size: 22px;
 		padding: 10px;
-		font-weight: 400;
 	 }
 	.main p{
 		font-size: 16px;
-		font-weight: 200;
 	}	
   }
