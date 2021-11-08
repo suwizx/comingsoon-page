@@ -38,9 +38,13 @@ align-items: center;
 	padding: 5px;
 	border-radius:100px ;
 	transition: .3s;
+	color: #fff;
+	display: flex;
+	font-family: 'Kanit';
 }
 .social:hover{
 	background-color: #000;
+	color: #fff;
 	
 }
 
@@ -78,6 +82,7 @@ a{
 	color: #3865f3;
 	text-decoration: none;
 	transition: width 0.5s;
+	padding: 5px;
 }
 a:hover{
 	color: #000;
@@ -95,3 +100,7 @@ a:hover{
 		font-size: 16px;
 	}	
   }
+.social p{
+	padding: 3px;
+	font-size: 14px;
+}
